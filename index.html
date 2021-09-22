@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        :root {
+            --color: white;
+            --background-color: rgb(65, 65, 65);
+            --system-date-color: rgb(98, 161, 233);
+            --grid-day-selected: rgb(8, 116, 240);
+            --month-date-color: rgb(179, 179, 179);
+        }
+
+        body {
+            display: inline-grid;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap:8px;
+        }
+    </style>
+</head>
+
+<body>
+    <cap-calendar></cap-calendar>
+    <script type="module" src="src/index.js"></script>
+</body>
+
+</html>
